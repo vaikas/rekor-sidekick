@@ -170,3 +170,13 @@ outputs:
 + stdout:
 +   enabled: true
 ```
+
+**cloudevents**
+
+The `cloudevents` driver emits [cloud events](https://cloudevents.io).
+
+```diff
+outputs:
++  cloudevents:
++    url: http://example.com:1234
+```
